@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<style>
+    .date-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-picker__item {
+    margin-right: 20px;
+  }
+  
+  .date-picker__label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .date-picker__select {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #409EFF;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  .date-picker__select:focus {
+    border-bottom: 2px solid #67C23A;
+  }
+</style>
+<body>
+    <!-- HTML代码 -->
+
+<form class="date-picker">
+    <div class="date-picker__item">
+      <label class="date-picker__label">Month:</label>
+      <select class="date-picker__select" id="month" name="month">
+        <option value="uk">UK</option>
+        <!-- 其他月份选项 -->
+      </select>
+    </div>
+  
+    <div class="date-picker__item">
+      <label class="date-picker__label">Day:</label>
+      <select class="date-picker__select" id="day" name="day">
+        <option value="uk">UK</option>
+        <!-- 其他日期选项 -->
+      </select>
+    </div>
+  </form>
+  
+  <!-- CSS样式 -->
+  
+ 
+</body>
+
+</html>
